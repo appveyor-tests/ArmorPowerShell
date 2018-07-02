@@ -578,6 +578,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../../public/New-ArmorCompleteVM/" title="New-ArmorCompleteVM" class="md-nav__link">
+      New-ArmorCompleteVM
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../../public/New-ArmorCompleteWorkloadTier/" title="New-ArmorCompleteWorkloadTier" class="md-nav__link">
       New-ArmorCompleteWorkloadTier
     </a>
@@ -865,8 +877,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#psobject" title="PSObject[]" class="md-nav__link">
-    PSObject[]
+  <a href="#systemmanagementautomationpsobject" title="System.Management.Automation.PSObject[]" class="md-nav__link">
+    System.Management.Automation.PSObject[]
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#systemmanagementautomationpsobject_1" title="System.Management.Automation.PSObject" class="md-nav__link">
+    System.Management.Automation.PSObject
   </a>
   
 </li>
@@ -885,14 +904,14 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#systemmanagementautomationpsobject" title="System.Management.Automation.PSObject[]" class="md-nav__link">
+  <a href="#systemmanagementautomationpsobject_2" title="System.Management.Automation.PSObject[]" class="md-nav__link">
     System.Management.Automation.PSObject[]
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#systemmanagementautomationpsobject_1" title="System.Management.Automation.PSObject" class="md-nav__link">
+  <a href="#systemmanagementautomationpsobject_3" title="System.Management.Automation.PSObject" class="md-nav__link">
     System.Management.Automation.PSObject
   </a>
   
@@ -1152,8 +1171,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#psobject" title="PSObject[]" class="md-nav__link">
-    PSObject[]
+  <a href="#systemmanagementautomationpsobject" title="System.Management.Automation.PSObject[]" class="md-nav__link">
+    System.Management.Automation.PSObject[]
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#systemmanagementautomationpsobject_1" title="System.Management.Automation.PSObject" class="md-nav__link">
+    System.Management.Automation.PSObject
   </a>
   
 </li>
@@ -1172,14 +1198,14 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#systemmanagementautomationpsobject" title="System.Management.Automation.PSObject[]" class="md-nav__link">
+  <a href="#systemmanagementautomationpsobject_2" title="System.Management.Automation.PSObject[]" class="md-nav__link">
     System.Management.Automation.PSObject[]
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#systemmanagementautomationpsobject_1" title="System.Management.Automation.PSObject" class="md-nav__link">
+  <a href="#systemmanagementautomationpsobject_3" title="System.Management.Automation.PSObject" class="md-nav__link">
     System.Management.Automation.PSObject
   </a>
   
@@ -1235,12 +1261,12 @@
 results in a "data" key.</p>
 <h2 id="examples">EXAMPLES<a class="headerlink" href="#examples" title="Permanent link">&para;</a></h2>
 <h3 id="example-1">EXAMPLE 1<a class="headerlink" href="#example-1" title="Permanent link">&para;</a></h3>
-<div class="codehilite"><pre><span></span>Expand-ArmorApiResult -Results [PSCustomObject] @{ &#39;Data&#39; = [PSCustomObject] @{ &#39;Important&#39; = &#39;Info&#39; } } -Location &#39;Data&#39;
+<div class="codehilite"><pre><span></span>Expand-ArmorApiResult -Results [PSCustomObject] @{ Data = [PSCustomObject] @{ Important = &#39;Info&#39; } } -Location &#39;Data&#39;
 </pre></div>
 
 <p>Returns the value of the 'Data' property.</p>
 <h3 id="example-2">EXAMPLE 2<a class="headerlink" href="#example-2" title="Permanent link">&para;</a></h3>
-<div class="codehilite"><pre><span></span>[PSCustomObject] @{ &#39;Data&#39; = [PSCustomObject] @{ &#39;Important&#39; = &#39;Info&#39; } } | Expand-ArmorApiResult -Location &#39;Data&#39;
+<div class="codehilite"><pre><span></span>[PSCustomObject] @{ Data = [PSCustomObject] @{ Important = &#39;Info&#39; } } | Expand-ArmorApiResult -Location &#39;Data&#39;
 </pre></div>
 
 <p>Returns the value of the 'Data' property.</p>
@@ -1276,11 +1302,11 @@ response content's data.</p>
 <p>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.
 For more information, see about_CommonParameters (<a href="http://go.microsoft.com/fwlink/?LinkID=113216">http://go.microsoft.com/fwlink/?LinkID=113216</a>).</p>
 <h2 id="inputs">INPUTS<a class="headerlink" href="#inputs" title="Permanent link">&para;</a></h2>
-<h3 id="psobject">PSObject[]<a class="headerlink" href="#psobject" title="Permanent link">&para;</a></h3>
-<p>PSCustomObject</p>
-<h2 id="outputs">OUTPUTS<a class="headerlink" href="#outputs" title="Permanent link">&para;</a></h2>
 <h3 id="systemmanagementautomationpsobject">System.Management.Automation.PSObject[]<a class="headerlink" href="#systemmanagementautomationpsobject" title="Permanent link">&para;</a></h3>
 <h3 id="systemmanagementautomationpsobject_1">System.Management.Automation.PSObject<a class="headerlink" href="#systemmanagementautomationpsobject_1" title="Permanent link">&para;</a></h3>
+<h2 id="outputs">OUTPUTS<a class="headerlink" href="#outputs" title="Permanent link">&para;</a></h2>
+<h3 id="systemmanagementautomationpsobject_2">System.Management.Automation.PSObject[]<a class="headerlink" href="#systemmanagementautomationpsobject_2" title="Permanent link">&para;</a></h3>
+<h3 id="systemmanagementautomationpsobject_3">System.Management.Automation.PSObject<a class="headerlink" href="#systemmanagementautomationpsobject_3" title="Permanent link">&para;</a></h3>
 <h2 id="notes">NOTES<a class="headerlink" href="#notes" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Troy Lindsay</li>
@@ -1349,7 +1375,7 @@ For more information, see about_CommonParameters (<a href="http://go.microsoft.c
       <div class="md-footer-copyright">
         
           <div class="md-footer-copyright__highlight">
-            Copyright Â© 2017-2018 Troy Lindsay. All rights reserved.
+            Copyright &copy;2017-2018 Troy Lindsay. All rights reserved.
           </div>
         
         powered by

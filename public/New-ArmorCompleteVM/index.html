@@ -13,7 +13,7 @@
         <meta name="description" content="This is a community project that provides a powerful command-line interface for managing and monitoring your Armor Complete (secure public cloud) and Armor Anywhere (security as a service) environments & accounts via a PowerShell module with cmdlets that interact with the published RESTful APIs.">
       
       
-        <link rel="canonical" href="https://tlindsay42.github.io/ArmorPowerShell/public/Disconnect-Armor/">
+        <link rel="canonical" href="https://tlindsay42.github.io/ArmorPowerShell/public/New-ArmorCompleteVM/">
       
       
         <meta name="author" content="Troy Lindsay">
@@ -42,7 +42,7 @@
     
     
       
-        <title>Disconnect-Armor - The Armor Community PowerShell Module</title>
+        <title>New-ArmorCompleteVM - The Armor Community PowerShell Module</title>
       
     
     
@@ -104,7 +104,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#disconnect-armor" tabindex="1" class="md-skip">
+      <a href="#new-armorcompletevm" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -130,7 +130,7 @@
                 The Armor Community PowerShell Module
               </span>
               <span class="md-header-nav__topic">
-                Disconnect-Armor
+                New-ArmorCompleteVM
               </span>
             
           
@@ -446,171 +446,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Disconnect-Armor
-      </label>
-    
-    <a href="./" title="Disconnect-Armor" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../Disconnect-Armor/" title="Disconnect-Armor" class="md-nav__link">
       Disconnect-Armor
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#synopsis" title="SYNOPSIS" class="md-nav__link">
-    SYNOPSIS
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#syntax" title="SYNTAX" class="md-nav__link">
-    SYNTAX
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#description" title="DESCRIPTION" class="md-nav__link">
-    DESCRIPTION
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#examples" title="EXAMPLES" class="md-nav__link">
-    EXAMPLES
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#example-1" title="EXAMPLE 1" class="md-nav__link">
-    EXAMPLE 1
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#parameters" title="PARAMETERS" class="md-nav__link">
-    PARAMETERS
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#-confirm" title="-Confirm" class="md-nav__link">
-    -Confirm
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#-whatif" title="-WhatIf" class="md-nav__link">
-    -WhatIf
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#commonparameters" title="CommonParameters" class="md-nav__link">
-    CommonParameters
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#inputs" title="INPUTS" class="md-nav__link">
-    INPUTS
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#none" title="None" class="md-nav__link">
-    None
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#outputs" title="OUTPUTS" class="md-nav__link">
-    OUTPUTS
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#systemvoid" title="System.Void" class="md-nav__link">
-    System.Void
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#notes" title="NOTES" class="md-nav__link">
-    NOTES
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#related-links" title="RELATED LINKS" class="md-nav__link">
-    RELATED LINKS
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
         
@@ -738,11 +578,289 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../New-ArmorCompleteVM/" title="New-ArmorCompleteVM" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        New-ArmorCompleteVM
+      </label>
+    
+    <a href="./" title="New-ArmorCompleteVM" class="md-nav__link md-nav__link--active">
       New-ArmorCompleteVM
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#synopsis" title="SYNOPSIS" class="md-nav__link">
+    SYNOPSIS
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#syntax" title="SYNTAX" class="md-nav__link">
+    SYNTAX
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#existingworkloadandtier-default" title="ExistingWorkloadAndTier (Default)" class="md-nav__link">
+    ExistingWorkloadAndTier (Default)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#newworkloadandtier" title="NewWorkloadAndTier" class="md-nav__link">
+    NewWorkloadAndTier
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#description" title="DESCRIPTION" class="md-nav__link">
+    DESCRIPTION
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#examples" title="EXAMPLES" class="md-nav__link">
+    EXAMPLES
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-1" title="EXAMPLE 1" class="md-nav__link">
+    EXAMPLE 1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-2" title="EXAMPLE 2" class="md-nav__link">
+    EXAMPLE 2
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#parameters" title="PARAMETERS" class="md-nav__link">
+    PARAMETERS
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#-apiversion" title="-ApiVersion" class="md-nav__link">
+    -ApiVersion
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#-location" title="-Location" class="md-nav__link">
+    -Location
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#-name" title="-Name" class="md-nav__link">
+    -Name
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#-quantity" title="-Quantity" class="md-nav__link">
+    -Quantity
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#-secret" title="-Secret" class="md-nav__link">
+    -Secret
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#-sku" title="-SKU" class="md-nav__link">
+    -SKU
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#-tierid" title="-TierID" class="md-nav__link">
+    -TierID
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#-tiername" title="-TierName" class="md-nav__link">
+    -TierName
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#-virtualdisks" title="-VirtualDisks" class="md-nav__link">
+    -VirtualDisks
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#-workloadid" title="-WorkloadID" class="md-nav__link">
+    -WorkloadID
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#-workloadname" title="-WorkloadName" class="md-nav__link">
+    -WorkloadName
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#-confirm" title="-Confirm" class="md-nav__link">
+    -Confirm
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#-whatif" title="-WhatIf" class="md-nav__link">
+    -WhatIf
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#commonparameters" title="CommonParameters" class="md-nav__link">
+    CommonParameters
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#inputs" title="INPUTS" class="md-nav__link">
+    INPUTS
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#systemstring" title="System.String" class="md-nav__link">
+    System.String
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#systemmanagementautomationpsobject" title="System.Management.Automation.PSObject" class="md-nav__link">
+    System.Management.Automation.PSObject
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#outputs" title="OUTPUTS" class="md-nav__link">
+    OUTPUTS
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#armorcompletevmorder" title="ArmorCompleteVmOrder[]" class="md-nav__link">
+    ArmorCompleteVmOrder[]
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#armorcompletevmorder_1" title="ArmorCompleteVmOrder" class="md-nav__link">
+    ArmorCompleteVmOrder
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#notes" title="NOTES" class="md-nav__link">
+    NOTES
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#related-links" title="RELATED LINKS" class="md-nav__link">
+    RELATED LINKS
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -1071,6 +1189,26 @@
     SYNTAX
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#existingworkloadandtier-default" title="ExistingWorkloadAndTier (Default)" class="md-nav__link">
+    ExistingWorkloadAndTier (Default)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#newworkloadandtier" title="NewWorkloadAndTier" class="md-nav__link">
+    NewWorkloadAndTier
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -1095,6 +1233,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#example-2" title="EXAMPLE 2" class="md-nav__link">
+    EXAMPLE 2
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1107,6 +1252,83 @@
   
     <nav class="md-nav">
       <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#-apiversion" title="-ApiVersion" class="md-nav__link">
+    -ApiVersion
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#-location" title="-Location" class="md-nav__link">
+    -Location
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#-name" title="-Name" class="md-nav__link">
+    -Name
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#-quantity" title="-Quantity" class="md-nav__link">
+    -Quantity
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#-secret" title="-Secret" class="md-nav__link">
+    -Secret
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#-sku" title="-SKU" class="md-nav__link">
+    -SKU
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#-tierid" title="-TierID" class="md-nav__link">
+    -TierID
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#-tiername" title="-TierName" class="md-nav__link">
+    -TierName
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#-virtualdisks" title="-VirtualDisks" class="md-nav__link">
+    -VirtualDisks
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#-workloadid" title="-WorkloadID" class="md-nav__link">
+    -WorkloadID
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#-workloadname" title="-WorkloadName" class="md-nav__link">
+    -WorkloadName
+  </a>
+  
+</li>
         
           <li class="md-nav__item">
   <a href="#-confirm" title="-Confirm" class="md-nav__link">
@@ -1143,8 +1365,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#none" title="None" class="md-nav__link">
-    None
+  <a href="#systemstring" title="System.String" class="md-nav__link">
+    System.String
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#systemmanagementautomationpsobject" title="System.Management.Automation.PSObject" class="md-nav__link">
+    System.Management.Automation.PSObject
   </a>
   
 </li>
@@ -1163,8 +1392,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#systemvoid" title="System.Void" class="md-nav__link">
-    System.Void
+  <a href="#armorcompletevmorder" title="ArmorCompleteVmOrder[]" class="md-nav__link">
+    ArmorCompleteVmOrder[]
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#armorcompletevmorder_1" title="ArmorCompleteVmOrder" class="md-nav__link">
+    ArmorCompleteVmOrder
   </a>
   
 </li>
@@ -1204,27 +1440,181 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/tlindsay42/ArmorPowerShell/blob/master/docs/public/Disconnect-Armor.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/tlindsay42/ArmorPowerShell/blob/master/docs/public/New-ArmorCompleteVM.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="disconnect-armor">Disconnect-Armor<a class="headerlink" href="#disconnect-armor" title="Permanent link">&para;</a></h1>
+                <h1 id="new-armorcompletevm">New-ArmorCompleteVM<a class="headerlink" href="#new-armorcompletevm" title="Permanent link">&para;</a></h1>
 <h2 id="synopsis">SYNOPSIS<a class="headerlink" href="#synopsis" title="Permanent link">&para;</a></h2>
-<p>Disconnects from Armor and destroys the session information.</p>
+<p>Creates new Armor Complete VMs.</p>
 <h2 id="syntax">SYNTAX<a class="headerlink" href="#syntax" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>Disconnect-Armor [-WhatIf] [-Confirm] [&lt;CommonParameters&gt;]
+<h3 id="existingworkloadandtier-default">ExistingWorkloadAndTier (Default)<a class="headerlink" href="#existingworkloadandtier-default" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span>New-ArmorCompleteVM [-Name] &lt;String&gt; [-Location] &lt;String&gt; [-WorkloadID] &lt;UInt16&gt; [-TierID] &lt;UInt16&gt;
+ [[-VirtualDisks] &lt;ArmorDisk[]&gt;] [-Secret] &lt;String&gt; [-SKU] &lt;String&gt; [[-Quantity] &lt;UInt16&gt;]
+ [[-ApiVersion] &lt;String&gt;] [-WhatIf] [-Confirm] [&lt;CommonParameters&gt;]
+</pre></div>
+
+<h3 id="newworkloadandtier">NewWorkloadAndTier<a class="headerlink" href="#newworkloadandtier" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span>New-ArmorCompleteVM [-Name] &lt;String&gt; [-Location] &lt;String&gt; [-WorkloadName] &lt;String&gt; [-TierName] &lt;String&gt;
+ [[-VirtualDisks] &lt;ArmorDisk[]&gt;] [-Secret] &lt;String&gt; [-SKU] &lt;String&gt; [[-Quantity] &lt;UInt16&gt;]
+ [[-ApiVersion] &lt;String&gt;] [-WhatIf] [-Confirm] [&lt;CommonParameters&gt;]
 </pre></div>
 
 <h2 id="description">DESCRIPTION<a class="headerlink" href="#description" title="Permanent link">&para;</a></h2>
-<p>Disconnects from the Armor API and destroys the $Global:ArmorSession session
-variable.</p>
+<p>Orders and provisions new Armor Complete virtual machines of the specified SKU.</p>
 <h2 id="examples">EXAMPLES<a class="headerlink" href="#examples" title="Permanent link">&para;</a></h2>
 <h3 id="example-1">EXAMPLE 1<a class="headerlink" href="#example-1" title="Permanent link">&para;</a></h3>
-<div class="codehilite"><pre><span></span>Disconnect-Armor
+<div class="codehilite"><pre><span></span>New-ArmorCompleteVM -Name &#39;web&#39; -Location &#39;DFW01&#39; -WorkloadName &#39;portal&#39; -TierName &#39;presentation&#39; -Secret $mySecurePassword -SKU &#39;A1-121&#39; -Quantity 3
 </pre></div>
 
-<p>Disconnects from the Armor API and destroys the $Global:ArmorSession session
-variable.</p>
+<h3 id="example-2">EXAMPLE 2<a class="headerlink" href="#example-2" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span>New-ArmorCompleteVM -Name &#39;app&#39; -Location &#39;DFW01&#39; -WorkloadID 1 -TierID 1 -Secret $mySecurePassword -SKU &#39;A1-131&#39; -Quantity 2
+</pre></div>
+
 <h2 id="parameters">PARAMETERS<a class="headerlink" href="#parameters" title="Permanent link">&para;</a></h2>
+<h3 id="-apiversion">-ApiVersion<a class="headerlink" href="#-apiversion" title="Permanent link">&para;</a></h3>
+<p>Specifies the API version for this request.</p>
+<div class="codehilite"><pre><span></span><span class="l l-Scalar l-Scalar-Plain">Type</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">String</span>
+<span class="l l-Scalar l-Scalar-Plain">Parameter Sets</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">(All)</span>
+<span class="l l-Scalar l-Scalar-Plain">Aliases</span><span class="p p-Indicator">:</span>
+
+<span class="l l-Scalar l-Scalar-Plain">Required</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">False</span>
+<span class="l l-Scalar l-Scalar-Plain">Position</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">9</span>
+<span class="l l-Scalar l-Scalar-Plain">Default value</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">$Global:ArmorSession.ApiVersion</span>
+<span class="l l-Scalar l-Scalar-Plain">Accept pipeline input</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">False</span>
+<span class="l l-Scalar l-Scalar-Plain">Accept wildcard characters</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">False</span>
+</pre></div>
+
+<h3 id="-location">-Location<a class="headerlink" href="#-location" title="Permanent link">&para;</a></h3>
+<p>Specifies the location code for the Armor Complete datacenter.</p>
+<div class="codehilite"><pre><span></span><span class="l l-Scalar l-Scalar-Plain">Type</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">String</span>
+<span class="l l-Scalar l-Scalar-Plain">Parameter Sets</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">(All)</span>
+<span class="l l-Scalar l-Scalar-Plain">Aliases</span><span class="p p-Indicator">:</span>
+
+<span class="l l-Scalar l-Scalar-Plain">Required</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">True</span>
+<span class="l l-Scalar l-Scalar-Plain">Position</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">2</span>
+<span class="l l-Scalar l-Scalar-Plain">Default value</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">None</span>
+<span class="l l-Scalar l-Scalar-Plain">Accept pipeline input</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">True (ByPropertyName)</span>
+<span class="l l-Scalar l-Scalar-Plain">Accept wildcard characters</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">False</span>
+</pre></div>
+
+<h3 id="-name">-Name<a class="headerlink" href="#-name" title="Permanent link">&para;</a></h3>
+<p>Specifies the name for the new virtual machine.</p>
+<div class="codehilite"><pre><span></span><span class="l l-Scalar l-Scalar-Plain">Type</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">String</span>
+<span class="l l-Scalar l-Scalar-Plain">Parameter Sets</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">(All)</span>
+<span class="l l-Scalar l-Scalar-Plain">Aliases</span><span class="p p-Indicator">:</span>
+
+<span class="l l-Scalar l-Scalar-Plain">Required</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">True</span>
+<span class="l l-Scalar l-Scalar-Plain">Position</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">1</span>
+<span class="l l-Scalar l-Scalar-Plain">Default value</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">None</span>
+<span class="l l-Scalar l-Scalar-Plain">Accept pipeline input</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">True (ByPropertyName, ByValue)</span>
+<span class="l l-Scalar l-Scalar-Plain">Accept wildcard characters</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">False</span>
+</pre></div>
+
+<h3 id="-quantity">-Quantity<a class="headerlink" href="#-quantity" title="Permanent link">&para;</a></h3>
+<p>Specifies the quantity of VMs to order of this specification.</p>
+<div class="codehilite"><pre><span></span><span class="l l-Scalar l-Scalar-Plain">Type</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">UInt16</span>
+<span class="l l-Scalar l-Scalar-Plain">Parameter Sets</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">(All)</span>
+<span class="l l-Scalar l-Scalar-Plain">Aliases</span><span class="p p-Indicator">:</span>
+
+<span class="l l-Scalar l-Scalar-Plain">Required</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">False</span>
+<span class="l l-Scalar l-Scalar-Plain">Position</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">8</span>
+<span class="l l-Scalar l-Scalar-Plain">Default value</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">1</span>
+<span class="l l-Scalar l-Scalar-Plain">Accept pipeline input</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">True (ByPropertyName)</span>
+<span class="l l-Scalar l-Scalar-Plain">Accept wildcard characters</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">False</span>
+</pre></div>
+
+<h3 id="-secret">-Secret<a class="headerlink" href="#-secret" title="Permanent link">&para;</a></h3>
+<p>Specifies the password for the new VM.</p>
+<div class="codehilite"><pre><span></span><span class="l l-Scalar l-Scalar-Plain">Type</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">String</span>
+<span class="l l-Scalar l-Scalar-Plain">Parameter Sets</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">(All)</span>
+<span class="l l-Scalar l-Scalar-Plain">Aliases</span><span class="p p-Indicator">:</span>
+
+<span class="l l-Scalar l-Scalar-Plain">Required</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">True</span>
+<span class="l l-Scalar l-Scalar-Plain">Position</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">6</span>
+<span class="l l-Scalar l-Scalar-Plain">Default value</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">None</span>
+<span class="l l-Scalar l-Scalar-Plain">Accept pipeline input</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">True (ByPropertyName)</span>
+<span class="l l-Scalar l-Scalar-Plain">Accept wildcard characters</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">False</span>
+</pre></div>
+
+<h3 id="-sku">-SKU<a class="headerlink" href="#-sku" title="Permanent link">&para;</a></h3>
+<p>Specifies the stock keeping unit (SKU) product identification code that
+includes the CPU &amp; memory specifications.</p>
+<div class="codehilite"><pre><span></span><span class="l l-Scalar l-Scalar-Plain">Type</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">String</span>
+<span class="l l-Scalar l-Scalar-Plain">Parameter Sets</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">(All)</span>
+<span class="l l-Scalar l-Scalar-Plain">Aliases</span><span class="p p-Indicator">:</span>
+
+<span class="l l-Scalar l-Scalar-Plain">Required</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">True</span>
+<span class="l l-Scalar l-Scalar-Plain">Position</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">7</span>
+<span class="l l-Scalar l-Scalar-Plain">Default value</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">None</span>
+<span class="l l-Scalar l-Scalar-Plain">Accept pipeline input</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">True (ByPropertyName)</span>
+<span class="l l-Scalar l-Scalar-Plain">Accept wildcard characters</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">False</span>
+</pre></div>
+
+<h3 id="-tierid">-TierID<a class="headerlink" href="#-tierid" title="Permanent link">&para;</a></h3>
+<p>Specifies the ID of the existing workload tier.</p>
+<div class="codehilite"><pre><span></span><span class="l l-Scalar l-Scalar-Plain">Type</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">UInt16</span>
+<span class="l l-Scalar l-Scalar-Plain">Parameter Sets</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">ExistingWorkloadAndTier</span>
+<span class="l l-Scalar l-Scalar-Plain">Aliases</span><span class="p p-Indicator">:</span>
+
+<span class="l l-Scalar l-Scalar-Plain">Required</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">True</span>
+<span class="l l-Scalar l-Scalar-Plain">Position</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">4</span>
+<span class="l l-Scalar l-Scalar-Plain">Default value</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">0</span>
+<span class="l l-Scalar l-Scalar-Plain">Accept pipeline input</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">True (ByPropertyName)</span>
+<span class="l l-Scalar l-Scalar-Plain">Accept wildcard characters</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">False</span>
+</pre></div>
+
+<h3 id="-tiername">-TierName<a class="headerlink" href="#-tiername" title="Permanent link">&para;</a></h3>
+<p>Specifies the names of the workload tiers.</p>
+<div class="codehilite"><pre><span></span><span class="l l-Scalar l-Scalar-Plain">Type</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">String</span>
+<span class="l l-Scalar l-Scalar-Plain">Parameter Sets</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">NewWorkloadAndTier</span>
+<span class="l l-Scalar l-Scalar-Plain">Aliases</span><span class="p p-Indicator">:</span>
+
+<span class="l l-Scalar l-Scalar-Plain">Required</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">True</span>
+<span class="l l-Scalar l-Scalar-Plain">Position</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">4</span>
+<span class="l l-Scalar l-Scalar-Plain">Default value</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">None</span>
+<span class="l l-Scalar l-Scalar-Plain">Accept pipeline input</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">True (ByPropertyName)</span>
+<span class="l l-Scalar l-Scalar-Plain">Accept wildcard characters</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">False</span>
+</pre></div>
+
+<h3 id="-virtualdisks">-VirtualDisks<a class="headerlink" href="#-virtualdisks" title="Permanent link">&para;</a></h3>
+<p>Specifies the virtual disks that should be added to the new VM.</p>
+<div class="codehilite"><pre><span></span><span class="l l-Scalar l-Scalar-Plain">Type</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">ArmorDisk[]</span>
+<span class="l l-Scalar l-Scalar-Plain">Parameter Sets</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">(All)</span>
+<span class="l l-Scalar l-Scalar-Plain">Aliases</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">Storage</span>
+
+<span class="l l-Scalar l-Scalar-Plain">Required</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">False</span>
+<span class="l l-Scalar l-Scalar-Plain">Position</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">5</span>
+<span class="l l-Scalar l-Scalar-Plain">Default value</span><span class="p p-Indicator">:</span> <span class="err">@</span><span class="l l-Scalar l-Scalar-Plain">()</span>
+<span class="l l-Scalar l-Scalar-Plain">Accept pipeline input</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">True (ByPropertyName)</span>
+<span class="l l-Scalar l-Scalar-Plain">Accept wildcard characters</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">False</span>
+</pre></div>
+
+<h3 id="-workloadid">-WorkloadID<a class="headerlink" href="#-workloadid" title="Permanent link">&para;</a></h3>
+<p>Specifies the ID of the existing Armor Complete workload.</p>
+<div class="codehilite"><pre><span></span><span class="l l-Scalar l-Scalar-Plain">Type</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">UInt16</span>
+<span class="l l-Scalar l-Scalar-Plain">Parameter Sets</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">ExistingWorkloadAndTier</span>
+<span class="l l-Scalar l-Scalar-Plain">Aliases</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">AppID</span>
+
+<span class="l l-Scalar l-Scalar-Plain">Required</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">True</span>
+<span class="l l-Scalar l-Scalar-Plain">Position</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">3</span>
+<span class="l l-Scalar l-Scalar-Plain">Default value</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">0</span>
+<span class="l l-Scalar l-Scalar-Plain">Accept pipeline input</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">True (ByPropertyName)</span>
+<span class="l l-Scalar l-Scalar-Plain">Accept wildcard characters</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">False</span>
+</pre></div>
+
+<h3 id="-workloadname">-WorkloadName<a class="headerlink" href="#-workloadname" title="Permanent link">&para;</a></h3>
+<p>Specifies the name for a new Armor Complete workload.</p>
+<div class="codehilite"><pre><span></span><span class="l l-Scalar l-Scalar-Plain">Type</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">String</span>
+<span class="l l-Scalar l-Scalar-Plain">Parameter Sets</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">NewWorkloadAndTier</span>
+<span class="l l-Scalar l-Scalar-Plain">Aliases</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">AppName</span>
+
+<span class="l l-Scalar l-Scalar-Plain">Required</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">True</span>
+<span class="l l-Scalar l-Scalar-Plain">Position</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">3</span>
+<span class="l l-Scalar l-Scalar-Plain">Default value</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">None</span>
+<span class="l l-Scalar l-Scalar-Plain">Accept pipeline input</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">True (ByPropertyName)</span>
+<span class="l l-Scalar l-Scalar-Plain">Accept wildcard characters</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">False</span>
+</pre></div>
+
 <h3 id="-confirm">-Confirm<a class="headerlink" href="#-confirm" title="Permanent link">&para;</a></h3>
 <p>Prompts you for confirmation before running the cmdlet.</p>
 <div class="codehilite"><pre><span></span><span class="l l-Scalar l-Scalar-Plain">Type</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">SwitchParameter</span>
@@ -1256,13 +1646,11 @@ The cmdlet is not run.</p>
 <p>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.
 For more information, see about_CommonParameters (<a href="http://go.microsoft.com/fwlink/?LinkID=113216">http://go.microsoft.com/fwlink/?LinkID=113216</a>).</p>
 <h2 id="inputs">INPUTS<a class="headerlink" href="#inputs" title="Permanent link">&para;</a></h2>
-<h3 id="none">None<a class="headerlink" href="#none" title="Permanent link">&para;</a></h3>
-<div class="codehilite"><pre><span></span>You cannot pipe input to this cmdlet.
-</pre></div>
-
-
+<h3 id="systemstring">System.String<a class="headerlink" href="#systemstring" title="Permanent link">&para;</a></h3>
+<h3 id="systemmanagementautomationpsobject">System.Management.Automation.PSObject<a class="headerlink" href="#systemmanagementautomationpsobject" title="Permanent link">&para;</a></h3>
 <h2 id="outputs">OUTPUTS<a class="headerlink" href="#outputs" title="Permanent link">&para;</a></h2>
-<h3 id="systemvoid">System.Void<a class="headerlink" href="#systemvoid" title="Permanent link">&para;</a></h3>
+<h3 id="armorcompletevmorder">ArmorCompleteVmOrder[]<a class="headerlink" href="#armorcompletevmorder" title="Permanent link">&para;</a></h3>
+<h3 id="armorcompletevmorder_1">ArmorCompleteVmOrder<a class="headerlink" href="#armorcompletevmorder_1" title="Permanent link">&para;</a></h3>
 <h2 id="notes">NOTES<a class="headerlink" href="#notes" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Troy Lindsay</li>
@@ -1270,10 +1658,10 @@ For more information, see about_CommonParameters (<a href="http://go.microsoft.c
 <li>GitHub: tlindsay42</li>
 </ul>
 <h2 id="related-links">RELATED LINKS<a class="headerlink" href="#related-links" title="Permanent link">&para;</a></h2>
-<p><a href="https://tlindsay42.github.io/ArmorPowerShell/public/Disconnect-Armor/">https://tlindsay42.github.io/ArmorPowerShell/public/Disconnect-Armor/</a></p>
-<p><a href="https://github.com/tlindsay42/ArmorPowerShell/blob/master/Armor/Public/Disconnect-Armor.ps1">https://github.com/tlindsay42/ArmorPowerShell/blob/master/Armor/Public/Disconnect-Armor.ps1</a></p>
-<p><a href="https://docs.armor.com/display/KBSS/Armor+API+Guide">https://docs.armor.com/display/KBSS/Armor+API+Guide</a></p>
-<p><a href="https://developer.armor.com/">https://developer.armor.com/</a></p>
+<p><a href="https://tlindsay42.github.io/ArmorPowerShell/public/New-ArmorCompleteVM/">https://tlindsay42.github.io/ArmorPowerShell/public/New-ArmorCompleteVM/</a></p>
+<p><a href="https://github.com/tlindsay42/ArmorPowerShell/blob/master/Armor/Public/New-ArmorCompleteVM.ps1">https://github.com/tlindsay42/ArmorPowerShell/blob/master/Armor/Public/New-ArmorCompleteVM.ps1</a></p>
+<p><a href="https://docs.armor.com/display/KBSS/Create+New+Virtual+Machine">https://docs.armor.com/display/KBSS/Create+New+Virtual+Machine</a></p>
+<p><a href="https://developer.armor.com/#!/Infrastructure/Orders_PostVmOrderAsync">https://developer.armor.com/#!/Infrastructure/Orders_PostVmOrderAsync</a></p>
                 
                   
                 
@@ -1294,7 +1682,7 @@ For more information, see about_CommonParameters (<a href="http://go.microsoft.c
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../Connect-Armor/" title="Connect-Armor" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../Invoke-ArmorWebRequest/" title="Invoke-ArmorWebRequest" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -1303,19 +1691,19 @@ For more information, see about_CommonParameters (<a href="http://go.microsoft.c
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Connect-Armor
+                Invoke-ArmorWebRequest
               </span>
             </div>
           </a>
         
         
-          <a href="../Get-ArmorAccount/" title="Get-ArmorAccount" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../New-ArmorCompleteWorkloadTier/" title="New-ArmorCompleteWorkloadTier" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Get-ArmorAccount
+                New-ArmorCompleteWorkloadTier
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">

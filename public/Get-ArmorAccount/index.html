@@ -625,8 +625,22 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#uint16" title="UInt16" class="md-nav__link">
-    UInt16
+  <a href="#systemuint16" title="System.UInt16" class="md-nav__link">
+    System.UInt16
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#systemstring" title="System.String" class="md-nav__link">
+    System.String
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#systemmanagementautomationpsobject" title="System.Management.Automation.PSObject" class="md-nav__link">
+    System.Management.Automation.PSObject
   </a>
   
 </li>
@@ -792,6 +806,18 @@
   <li class="md-nav__item">
     <a href="../Invoke-ArmorWebRequest/" title="Invoke-ArmorWebRequest" class="md-nav__link">
       Invoke-ArmorWebRequest
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../New-ArmorCompleteVM/" title="New-ArmorCompleteVM" class="md-nav__link">
+      New-ArmorCompleteVM
     </a>
   </li>
 
@@ -1248,8 +1274,22 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#uint16" title="UInt16" class="md-nav__link">
-    UInt16
+  <a href="#systemuint16" title="System.UInt16" class="md-nav__link">
+    System.UInt16
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#systemstring" title="System.String" class="md-nav__link">
+    System.String
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#systemmanagementautomationpsobject" title="System.Management.Automation.PSObject" class="md-nav__link">
+    System.Management.Automation.PSObject
   </a>
   
 </li>
@@ -1355,13 +1395,13 @@ containing the word 'Child'.</p>
 <p>Gets the Armor accounts assigned to the logged in user account with ID=1 and
 Name='Example Child Account' via pipeline values.</p>
 <h3 id="example-4">EXAMPLE 4<a class="headerlink" href="#example-4" title="Permanent link">&para;</a></h3>
-<div class="codehilite"><pre><span></span>[PSCustomObject] @{ &#39;ID&#39; = 1 } | Get-ArmorAccount
+<div class="codehilite"><pre><span></span>[PSCustomObject] @{ ID = 1 } | Get-ArmorAccount
 </pre></div>
 
 <p>Gets the Armor account assigned to the logged in user account with ID=1 via
 property name in the pipeline.</p>
 <h3 id="example-5">EXAMPLE 5<a class="headerlink" href="#example-5" title="Permanent link">&para;</a></h3>
-<div class="codehilite"><pre><span></span>[PSCustomObject] @{ &#39;Name&#39; = &#39;My Secure Account&#39; } | Get-ArmorAccount
+<div class="codehilite"><pre><span></span>[PSCustomObject] @{ Name = &#39;My Secure Account&#39; } | Get-ArmorAccount
 </pre></div>
 
 <p>Gets the Armor account assigned to the logged in user account with
@@ -1410,9 +1450,9 @@ Name='My Secure Account' via property name in the pipeline.</p>
 <p>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.
 For more information, see about_CommonParameters (<a href="http://go.microsoft.com/fwlink/?LinkID=113216">http://go.microsoft.com/fwlink/?LinkID=113216</a>).</p>
 <h2 id="inputs">INPUTS<a class="headerlink" href="#inputs" title="Permanent link">&para;</a></h2>
-<h3 id="uint16">UInt16<a class="headerlink" href="#uint16" title="Permanent link">&para;</a></h3>
-<p>String</p>
-<p>PSCustomObject</p>
+<h3 id="systemuint16">System.UInt16<a class="headerlink" href="#systemuint16" title="Permanent link">&para;</a></h3>
+<h3 id="systemstring">System.String<a class="headerlink" href="#systemstring" title="Permanent link">&para;</a></h3>
+<h3 id="systemmanagementautomationpsobject">System.Management.Automation.PSObject<a class="headerlink" href="#systemmanagementautomationpsobject" title="Permanent link">&para;</a></h3>
 <h2 id="outputs">OUTPUTS<a class="headerlink" href="#outputs" title="Permanent link">&para;</a></h2>
 <h3 id="armoraccount">ArmorAccount<a class="headerlink" href="#armoraccount" title="Permanent link">&para;</a></h3>
 <h3 id="armoraccount_1">ArmorAccount[]<a class="headerlink" href="#armoraccount_1" title="Permanent link">&para;</a></h3>
@@ -1484,7 +1524,7 @@ For more information, see about_CommonParameters (<a href="http://go.microsoft.c
       <div class="md-footer-copyright">
         
           <div class="md-footer-copyright__highlight">
-            Copyright Â© 2017-2018 Troy Lindsay. All rights reserved.
+            Copyright &copy;2017-2018 Troy Lindsay. All rights reserved.
           </div>
         
         powered by

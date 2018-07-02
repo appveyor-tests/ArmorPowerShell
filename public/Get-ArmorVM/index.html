@@ -756,29 +756,29 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#uint16" title="UInt16" class="md-nav__link">
-    UInt16
+  <a href="#systemuint16" title="System.UInt16" class="md-nav__link">
+    System.UInt16
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#guid" title="Guid" class="md-nav__link">
-    Guid
+  <a href="#systemguid" title="System.Guid" class="md-nav__link">
+    System.Guid
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#string" title="String" class="md-nav__link">
-    String
+  <a href="#systemstring" title="System.String" class="md-nav__link">
+    System.String
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#pscustomobject" title="PSCustomObject" class="md-nav__link">
-    PSCustomObject
+  <a href="#systemmanagementautomationpsobject" title="System.Management.Automation.PSObject" class="md-nav__link">
+    System.Management.Automation.PSObject
   </a>
   
 </li>
@@ -848,6 +848,18 @@
   <li class="md-nav__item">
     <a href="../Invoke-ArmorWebRequest/" title="Invoke-ArmorWebRequest" class="md-nav__link">
       Invoke-ArmorWebRequest
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../New-ArmorCompleteVM/" title="New-ArmorCompleteVM" class="md-nav__link">
+      New-ArmorCompleteVM
     </a>
   </li>
 
@@ -1339,29 +1351,29 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#uint16" title="UInt16" class="md-nav__link">
-    UInt16
+  <a href="#systemuint16" title="System.UInt16" class="md-nav__link">
+    System.UInt16
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#guid" title="Guid" class="md-nav__link">
-    Guid
+  <a href="#systemguid" title="System.Guid" class="md-nav__link">
+    System.Guid
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#string" title="String" class="md-nav__link">
-    String
+  <a href="#systemstring" title="System.String" class="md-nav__link">
+    System.String
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#pscustomobject" title="PSCustomObject" class="md-nav__link">
-    PSCustomObject
+  <a href="#systemmanagementautomationpsobject" title="System.Management.Automation.PSObject" class="md-nav__link">
+    System.Management.Automation.PSObject
   </a>
   
 </li>
@@ -1486,12 +1498,12 @@ name that starts with 'db'.</p>
 
 <p>Retrieves all VMs containing the word 'secure' in the name via pipeline value.</p>
 <h3 id="example-7">EXAMPLE 7<a class="headerlink" href="#example-7" title="Permanent link">&para;</a></h3>
-<div class="codehilite"><pre><span></span>[PSCustomObject] @{ &#39;ID&#39; = 1 } | Get-ArmorVM
+<div class="codehilite"><pre><span></span>[PSCustomObject] @{ ID = 1 } | Get-ArmorVM
 </pre></div>
 
 <p>Retrieves the details for the VM with ID=1 via property name in the pipeline.</p>
 <h3 id="example-8">EXAMPLE 8<a class="headerlink" href="#example-8" title="Permanent link">&para;</a></h3>
-<div class="codehilite"><pre><span></span>[PSCustomObject] @{ &#39;Name&#39; = &#39;app1&#39; } | Get-ArmorVM
+<div class="codehilite"><pre><span></span>[PSCustomObject] @{ Name = &#39;app1&#39; } | Get-ArmorVM
 </pre></div>
 
 <p>Retrieves the details for the VM with Name='app1' via property name in the
@@ -1554,10 +1566,10 @@ that you want to retrieve.</p>
 <p>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.
 For more information, see about_CommonParameters (<a href="http://go.microsoft.com/fwlink/?LinkID=113216">http://go.microsoft.com/fwlink/?LinkID=113216</a>).</p>
 <h2 id="inputs">INPUTS<a class="headerlink" href="#inputs" title="Permanent link">&para;</a></h2>
-<h3 id="uint16">UInt16<a class="headerlink" href="#uint16" title="Permanent link">&para;</a></h3>
-<h3 id="guid">Guid<a class="headerlink" href="#guid" title="Permanent link">&para;</a></h3>
-<h3 id="string">String<a class="headerlink" href="#string" title="Permanent link">&para;</a></h3>
-<h3 id="pscustomobject">PSCustomObject<a class="headerlink" href="#pscustomobject" title="Permanent link">&para;</a></h3>
+<h3 id="systemuint16">System.UInt16<a class="headerlink" href="#systemuint16" title="Permanent link">&para;</a></h3>
+<h3 id="systemguid">System.Guid<a class="headerlink" href="#systemguid" title="Permanent link">&para;</a></h3>
+<h3 id="systemstring">System.String<a class="headerlink" href="#systemstring" title="Permanent link">&para;</a></h3>
+<h3 id="systemmanagementautomationpsobject">System.Management.Automation.PSObject<a class="headerlink" href="#systemmanagementautomationpsobject" title="Permanent link">&para;</a></h3>
 <h2 id="outputs">OUTPUTS<a class="headerlink" href="#outputs" title="Permanent link">&para;</a></h2>
 <h3 id="armorvm">ArmorVM[]<a class="headerlink" href="#armorvm" title="Permanent link">&para;</a></h3>
 <h3 id="armorvm_1">ArmorVM<a class="headerlink" href="#armorvm_1" title="Permanent link">&para;</a></h3>
@@ -1631,7 +1643,7 @@ For more information, see about_CommonParameters (<a href="http://go.microsoft.c
       <div class="md-footer-copyright">
         
           <div class="md-footer-copyright__highlight">
-            Copyright Â© 2017-2018 Troy Lindsay. All rights reserved.
+            Copyright &copy;2017-2018 Troy Lindsay. All rights reserved.
           </div>
         
         powered by

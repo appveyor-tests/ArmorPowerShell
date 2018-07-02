@@ -578,6 +578,18 @@
           
           
 
+
+  <li class="md-nav__item">
+    <a href="../New-ArmorCompleteVM/" title="New-ArmorCompleteVM" class="md-nav__link">
+      New-ArmorCompleteVM
+    </a>
+  </li>
+
+        
+          
+          
+          
+
   
 
 
@@ -732,8 +744,22 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#uint16" title="UInt16" class="md-nav__link">
-    UInt16
+  <a href="#systemuint16" title="System.UInt16" class="md-nav__link">
+    System.UInt16
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#systemstring" title="System.String" class="md-nav__link">
+    System.String
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#systemmanagementautomationpsobject" title="System.Management.Automation.PSObject" class="md-nav__link">
+    System.Management.Automation.PSObject
   </a>
   
 </li>
@@ -1222,8 +1248,22 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#uint16" title="UInt16" class="md-nav__link">
-    UInt16
+  <a href="#systemuint16" title="System.UInt16" class="md-nav__link">
+    System.UInt16
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#systemstring" title="System.String" class="md-nav__link">
+    System.String
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#systemmanagementautomationpsobject" title="System.Management.Automation.PSObject" class="md-nav__link">
+    System.Management.Automation.PSObject
   </a>
   
 </li>
@@ -1340,7 +1380,7 @@ Complete account that currently has context.</p>
 <p>Creates new workload tiers named 'web', 'app', and 'db' in the workload with
 WorkloadID=1 in the Armor Complete account that currently has context.</p>
 <h3 id="example-4">EXAMPLE 4<a class="headerlink" href="#example-4" title="Permanent link">&para;</a></h3>
-<div class="codehilite"><pre><span></span>[PSCustomObject] @{ &#39;WorkloadID&#39; = 1; &#39;Name&#39; = &#39;persistence&#39; } | New-ArmorCompleteWorkloadTier
+<div class="codehilite"><pre><span></span>[PSCustomObject] @{ WorkloadID = 1; Name = &#39;persistence&#39; } | New-ArmorCompleteWorkloadTier
 </pre></div>
 
 <p>Creates a new workload tier named 'persistence' in the workload with
@@ -1416,9 +1456,9 @@ The cmdlet is not run.</p>
 <p>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable.
 For more information, see about_CommonParameters (<a href="http://go.microsoft.com/fwlink/?LinkID=113216">http://go.microsoft.com/fwlink/?LinkID=113216</a>).</p>
 <h2 id="inputs">INPUTS<a class="headerlink" href="#inputs" title="Permanent link">&para;</a></h2>
-<h3 id="uint16">UInt16<a class="headerlink" href="#uint16" title="Permanent link">&para;</a></h3>
-<p>String</p>
-<p>PSCustomObject</p>
+<h3 id="systemuint16">System.UInt16<a class="headerlink" href="#systemuint16" title="Permanent link">&para;</a></h3>
+<h3 id="systemstring">System.String<a class="headerlink" href="#systemstring" title="Permanent link">&para;</a></h3>
+<h3 id="systemmanagementautomationpsobject">System.Management.Automation.PSObject<a class="headerlink" href="#systemmanagementautomationpsobject" title="Permanent link">&para;</a></h3>
 <h2 id="outputs">OUTPUTS<a class="headerlink" href="#outputs" title="Permanent link">&para;</a></h2>
 <h3 id="armorcompleteworkloadtier">ArmorCompleteWorkloadTier[]<a class="headerlink" href="#armorcompleteworkloadtier" title="Permanent link">&para;</a></h3>
 <h3 id="armorcompleteworkloadtier_1">ArmorCompleteWorkloadTier<a class="headerlink" href="#armorcompleteworkloadtier_1" title="Permanent link">&para;</a></h3>
@@ -1453,7 +1493,7 @@ For more information, see about_CommonParameters (<a href="http://go.microsoft.c
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../Invoke-ArmorWebRequest/" title="Invoke-ArmorWebRequest" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../New-ArmorCompleteVM/" title="New-ArmorCompleteVM" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -1462,7 +1502,7 @@ For more information, see about_CommonParameters (<a href="http://go.microsoft.c
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Invoke-ArmorWebRequest
+                New-ArmorCompleteVM
               </span>
             </div>
           </a>
@@ -1490,7 +1530,7 @@ For more information, see about_CommonParameters (<a href="http://go.microsoft.c
       <div class="md-footer-copyright">
         
           <div class="md-footer-copyright__highlight">
-            Copyright Â© 2017-2018 Troy Lindsay. All rights reserved.
+            Copyright &copy;2017-2018 Troy Lindsay. All rights reserved.
           </div>
         
         powered by
