@@ -30,7 +30,7 @@ for:
     - PowerShell: 6
       image: Visual Studio 2017
   build_script:
-  - pwsh: ./build/build.ps1 -DeploymentMode
+  - sh: pwsh -File ./build/build.ps1 -DeploymentMode
 - matrix:
     only:
     - PowerShell: 5
@@ -40,7 +40,7 @@ for:
     only:
     - PowerShell: 6
   build_script:
-  - pwsh: ./build/build.ps1
+  - sh: pwsh -File  ./build/build.ps1
 
 matrix:
   exclude:
