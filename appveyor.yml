@@ -72,3 +72,6 @@ artifacts:
   name: Pester Code Coverage Results
   type: Auto
 - path: $HOME/output.log
+
+on_failure:
+- ps: Push-AppVeyorArtifact $HOME/output.log
